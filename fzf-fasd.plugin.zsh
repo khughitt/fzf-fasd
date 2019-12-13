@@ -11,7 +11,7 @@ __fzf_fasd_zsh_completion() {
   cmd=${args[1]}
 
   # triggered only at the command 'z'; fallback to default
-  if [[ "$cmd" != "z" ]]; then
+  if [[ "$cmd" != "j" ]]; then
     zle ${__fzf_fasd_default_completion:-expand-or-complete}
     return
   fi
